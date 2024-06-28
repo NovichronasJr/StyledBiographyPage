@@ -1,0 +1,116 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    
+}
+
+.navbar{
+    height:120px;
+    text-align: center;
+    padding-top:45px ;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+.maindiv{
+    background-color: rgb(252, 232, 208);
+    width:100%;
+    height:100%;
+   
+}
+
+.innerdiv{
+    width:70%;
+    height:60%;
+    margin: auto;
+    display: flex;
+    margin-top:4%;
+    border:2px solid black;
+    padding-top:1%;
+   
+}
+
+.leftdiv{
+    width:54%;
+    height:96%;
+    
+}
+
+.rightdiv{
+    width:45%;
+    height:96%;
+}
+
+ .rightdiv > img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height: 100%;
+}
+
+.heroheader{
+    font-size: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.leftdiv > p{
+    font-size: 40px;
+    margin-top: 22px;
+    margin-left:28px;
+    font-weight: 400;
+    color:rgb(61, 58, 58);
+}
+
+.icons{
+    display: flex;
+    justify-content:baseline;
+    align-items:center;
+   
+}
+
+.img1,.img3 {
+    width:200px;
+    height:200px;
+}
+
+.img2{
+    width:250px;
+    height:250px;
+}
+
+.bott{
+    margin-top: 130px;
+    margin-left: 22px;
+}
+
+.header2{
+    font-size: 42px;
+}
+
+.btn{
+    width:200px;
+    height:80px;
+    font-size: 36px;
+    color:white;
+    background-color:green;
+    margin-left:22px;
+    margin-top: 22px;
+    border-radius: 25px;
+}
